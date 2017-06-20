@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6E5F26DA-A92E-37AF-BFBD-0159906CF636}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VisualStudioCMakeGeneratedProject>3.7.20170106-gd3236-dirty-MSVC_2</VisualStudioCMakeGeneratedProject>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\PROGRAMMES\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\CMake\bin\cmake.exe" "-HD:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom" "-BD:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug" --check-stamp-file "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/CMakeLists.txt;D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\CMakeLists.txt;D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeSystem.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeCCompiler.cmake;D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeCXXCompiler.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeRCCompiler.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\ZERO_CHECK.vcxproj">
+      <Project>7152A532-DCF7-3305-B030-8D903420DEB9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\playWithRandom.vcxproj">
+      <Project>3E1A5A7F-2A8D-3D40-9C13-6090F1708796</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

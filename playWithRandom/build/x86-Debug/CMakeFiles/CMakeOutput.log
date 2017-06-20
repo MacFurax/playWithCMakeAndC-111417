@@ -1,0 +1,338 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine, version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 19-06-17 12:06:08.
+Projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "Debug\".
+  Création du répertoire "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Création de "Debug\CompilerIdC.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Génération du projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.73
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/3.7.20170106-gd3236-dirty-MSVC_2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine, version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 19-06-17 12:06:09.
+Projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "Debug\".
+  Création du répertoire "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Création de "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Génération du projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.73
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/3.7.20170106-gd3236-dirty-MSVC_2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programmes\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e0dbf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine, version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 19-06-17 12:06:10.
+Projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_e0dbf.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "cmTC_e0dbf.dir\Debug\".
+  Création du répertoire "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\".
+  Création du répertoire "cmTC_e0dbf.dir\Debug\cmTC_e0dbf.tlog\".
+InitializeBuildStatus:
+  Création de "cmTC_e0dbf.dir\Debug\cmTC_e0dbf.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0dbf.dir\Debug\\" /Fd"cmTC_e0dbf.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0dbf.dir\Debug\\" /Fd"cmTC_e0dbf.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_e0dbf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_e0dbf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_e0dbf.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_e0dbf.dir\Debug\testCCompiler.obj
+  cmTC_e0dbf.vcxproj -> D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_e0dbf.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_e0dbf.dir\Debug\cmTC_e0dbf.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_e0dbf.dir\Debug\cmTC_e0dbf.tlog\cmTC_e0dbf.lastbuildstate".
+Génération du projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_e0dbf.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:01.03
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programmes\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2378d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine, version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 19-06-17 12:06:11.
+Projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_2378d.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "cmTC_2378d.dir\Debug\".
+  Création du répertoire "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\".
+  Création du répertoire "cmTC_2378d.dir\Debug\cmTC_2378d.tlog\".
+InitializeBuildStatus:
+  Création de "cmTC_2378d.dir\Debug\cmTC_2378d.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2378d.dir\Debug\\" /Fd"cmTC_2378d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2378d.dir\Debug\\" /Fd"cmTC_2378d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_2378d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_2378d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_2378d.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_2378d.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_2378d.vcxproj -> D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_2378d.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_2378d.dir\Debug\cmTC_2378d.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_2378d.dir\Debug\cmTC_2378d.tlog\cmTC_2378d.lastbuildstate".
+Génération du projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_2378d.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.78
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programmes\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_cab36.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine, version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 19-06-17 12:06:12.
+Projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_cab36.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "cmTC_cab36.dir\Debug\".
+  Création du répertoire "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\".
+  Création du répertoire "cmTC_cab36.dir\Debug\cmTC_cab36.tlog\".
+InitializeBuildStatus:
+  Création de "cmTC_cab36.dir\Debug\cmTC_cab36.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cab36.dir\Debug\\" /Fd"cmTC_cab36.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cab36.dir\Debug\\" /Fd"cmTC_cab36.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_cab36.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_cab36.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_cab36.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_cab36.dir\Debug\testCXXCompiler.obj
+  cmTC_cab36.vcxproj -> D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_cab36.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_cab36.dir\Debug\cmTC_cab36.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_cab36.dir\Debug\cmTC_cab36.tlog\cmTC_cab36.lastbuildstate".
+Génération du projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_cab36.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.80
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programmes\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9949f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine, version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 19-06-17 12:06:13.
+Projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_9949f.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "cmTC_9949f.dir\Debug\".
+  Création du répertoire "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\".
+  Création du répertoire "cmTC_9949f.dir\Debug\cmTC_9949f.tlog\".
+InitializeBuildStatus:
+  Création de "cmTC_9949f.dir\Debug\cmTC_9949f.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9949f.dir\Debug\\" /Fd"cmTC_9949f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9949f.dir\Debug\\" /Fd"cmTC_9949f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Programmes\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_9949f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_9949f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_9949f.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_9949f.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_9949f.vcxproj -> D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_9949f.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_9949f.dir\Debug\cmTC_9949f.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_9949f.dir\Debug\cmTC_9949f.tlog\cmTC_9949f.lastbuildstate".
+Génération du projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_9949f.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.86
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programmes\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ef992.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine, version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+La génération a démarré 19-06-17 12:06:15.
+Projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_ef992.vcxproj" sur le noud 1 (cibles par défaut).
+PrepareForBuild:
+  Création du répertoire "cmTC_ef992.dir\Debug\".
+  Création du répertoire "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\".
+  Création du répertoire "cmTC_ef992.dir\Debug\cmTC_ef992.tlog\".
+InitializeBuildStatus:
+  Création de "cmTC_ef992.dir\Debug\cmTC_ef992.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+ClCompile:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef992.dir\Debug\\" /Fd"cmTC_ef992.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef992.dir\Debug\\" /Fd"cmTC_ef992.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  D:\Programmes\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_ef992.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_ef992.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Constant Dupuis/Dev/cpp/playWithCMakeAndC-111417/playWithRandom/build/x86-Debug/CMakeFiles/CMakeTmp/Debug/cmTC_ef992.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_ef992.dir\Debug\feature_tests.obj
+  cmTC_ef992.vcxproj -> D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_ef992.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_ef992.dir\Debug\cmTC_ef992.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "cmTC_ef992.dir\Debug\cmTC_ef992.tlog\cmTC_ef992.lastbuildstate".
+Génération du projet "D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\build\x86-Debug\CMakeFiles\CMakeTmp\cmTC_ef992.vcxproj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:00.84
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

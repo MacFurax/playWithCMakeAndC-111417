@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\src\playWithRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Constant Dupuis\Dev\cpp\playWithCMakeAndC-111417\playWithRandom\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7C87FD1D-B539-3BEF-B74C-40CB878026D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

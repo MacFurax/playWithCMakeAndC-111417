@@ -8,3 +8,5 @@ playWithRandom/Makefile
 playWithRandom/cmake_install\.cmake
 
 playWithRandom/\.vscode/
+
+playWithChrono/build/
