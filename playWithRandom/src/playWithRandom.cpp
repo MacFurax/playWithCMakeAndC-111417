@@ -1,7 +1,23 @@
 #include <iostream>
 #include <string>
 #include <random>
+#include <functional>
 
+class Rand_int{
+public:
+  Rand_int(int low, int high) : re2(rd()), dist(low,high) {
+    rnd = std::bind( dist, re );
+  }
+  //int operator()() {return rnd();}
+  int operator()() { return dist(re2); }
+
+private:
+  std::random_device rd;
+  std::default_random_engine re;
+  std::mt19937 re2;
+  std::uniform_int_distribution<> dist;
+  std::function<int()> rnd;
+};
 
 int main()
 {
@@ -42,6 +58,11 @@ int main()
     std::cout << i << "-" << (i+1) << ": ";
     std::cout << std::string(p[i]*nstars/nrolls,'*') << std::endl;
   }
+
+  Rand_int ri{1,6};
+
+  for( int i = 0; i < 10; i++ )
+    std::cout << "Die roll " << ri() << std::endl;
 
   return 0;
 }
