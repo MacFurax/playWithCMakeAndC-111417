@@ -12,3 +12,11 @@ playWithRandom/\.vscode/
 playWithChrono/build/
 
 playWithRandom/playWithRandom
+
+CMakeFiles/
+
+pwTraits
+
+Makefile
+
+cmake_install\.cmake
